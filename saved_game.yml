@@ -1,0 +1,433 @@
+--- !ruby/object:Chess
+board: &1 !ruby/object:Board
+  board:
+  - - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: rook
+        color: b
+        unicode: "♖ "
+      row: 0
+      col: 0
+      space_number: '00'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: knight
+        color: b
+        unicode: "♘ "
+      row: 0
+      col: 1
+      space_number: '01'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: bishop
+        color: b
+        unicode: "♗ "
+      row: 0
+      col: 2
+      space_number: '02'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: queen
+        color: b
+        unicode: "♕ "
+      row: 0
+      col: 3
+      space_number: '03'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: king
+        color: b
+        unicode: "♔ "
+      row: 0
+      col: 4
+      space_number: '04'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: bishop
+        color: b
+        unicode: "♗ "
+      row: 0
+      col: 5
+      space_number: '05'
+    - !ruby/object:Space
+      piece: 
+      row: 0
+      col: 6
+      space_number: '06'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: rook
+        color: b
+        unicode: "♖ "
+      row: 0
+      col: 7
+      space_number: '07'
+  - - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: pawn
+        color: b
+        unicode: "♙ "
+      row: 1
+      col: 0
+      space_number: '10'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: pawn
+        color: b
+        unicode: "♙ "
+      row: 1
+      col: 1
+      space_number: '11'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: pawn
+        color: b
+        unicode: "♙ "
+      row: 1
+      col: 2
+      space_number: '12'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: pawn
+        color: b
+        unicode: "♙ "
+      row: 1
+      col: 3
+      space_number: '13'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: pawn
+        color: b
+        unicode: "♙ "
+      row: 1
+      col: 4
+      space_number: '14'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: pawn
+        color: b
+        unicode: "♙ "
+      row: 1
+      col: 5
+      space_number: '15'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: pawn
+        color: b
+        unicode: "♙ "
+      row: 1
+      col: 6
+      space_number: '16'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: pawn
+        color: b
+        unicode: "♙ "
+      row: 1
+      col: 7
+      space_number: '17'
+  - - !ruby/object:Space
+      piece: 
+      row: 2
+      col: 0
+      space_number: '20'
+    - !ruby/object:Space
+      piece: 
+      row: 2
+      col: 1
+      space_number: '21'
+    - !ruby/object:Space
+      piece: 
+      row: 2
+      col: 2
+      space_number: '22'
+    - !ruby/object:Space
+      piece: 
+      row: 2
+      col: 3
+      space_number: '23'
+    - !ruby/object:Space
+      piece: 
+      row: 2
+      col: 4
+      space_number: '24'
+    - !ruby/object:Space
+      piece: 
+      row: 2
+      col: 5
+      space_number: '25'
+    - !ruby/object:Space
+      piece: 
+      row: 2
+      col: 6
+      space_number: '26'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: knight
+        color: b
+        unicode: "♘ "
+      row: 2
+      col: 7
+      space_number: '27'
+  - - !ruby/object:Space
+      piece: 
+      row: 3
+      col: 0
+      space_number: '30'
+    - !ruby/object:Space
+      piece: 
+      row: 3
+      col: 1
+      space_number: '31'
+    - !ruby/object:Space
+      piece: 
+      row: 3
+      col: 2
+      space_number: '32'
+    - !ruby/object:Space
+      piece: 
+      row: 3
+      col: 3
+      space_number: '33'
+    - !ruby/object:Space
+      piece: 
+      row: 3
+      col: 4
+      space_number: '34'
+    - !ruby/object:Space
+      piece: 
+      row: 3
+      col: 5
+      space_number: '35'
+    - !ruby/object:Space
+      piece: 
+      row: 3
+      col: 6
+      space_number: '36'
+    - !ruby/object:Space
+      piece: 
+      row: 3
+      col: 7
+      space_number: '37'
+  - - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: pawn
+        color: w
+        unicode: "♟ "
+      row: 4
+      col: 0
+      space_number: '40'
+    - !ruby/object:Space
+      piece: 
+      row: 4
+      col: 1
+      space_number: '41'
+    - !ruby/object:Space
+      piece: 
+      row: 4
+      col: 2
+      space_number: '42'
+    - !ruby/object:Space
+      piece: 
+      row: 4
+      col: 3
+      space_number: '43'
+    - !ruby/object:Space
+      piece: 
+      row: 4
+      col: 4
+      space_number: '44'
+    - !ruby/object:Space
+      piece: 
+      row: 4
+      col: 5
+      space_number: '45'
+    - !ruby/object:Space
+      piece: 
+      row: 4
+      col: 6
+      space_number: '46'
+    - !ruby/object:Space
+      piece: 
+      row: 4
+      col: 7
+      space_number: '47'
+  - - !ruby/object:Space
+      piece: 
+      row: 5
+      col: 0
+      space_number: '50'
+    - !ruby/object:Space
+      piece: 
+      row: 5
+      col: 1
+      space_number: '51'
+    - !ruby/object:Space
+      piece: 
+      row: 5
+      col: 2
+      space_number: '52'
+    - !ruby/object:Space
+      piece: 
+      row: 5
+      col: 3
+      space_number: '53'
+    - !ruby/object:Space
+      piece: 
+      row: 5
+      col: 4
+      space_number: '54'
+    - !ruby/object:Space
+      piece: 
+      row: 5
+      col: 5
+      space_number: '55'
+    - !ruby/object:Space
+      piece: 
+      row: 5
+      col: 6
+      space_number: '56'
+    - !ruby/object:Space
+      piece: 
+      row: 5
+      col: 7
+      space_number: '57'
+  - - !ruby/object:Space
+      piece: 
+      row: 6
+      col: 0
+      space_number: '60'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: pawn
+        color: w
+        unicode: "♟ "
+      row: 6
+      col: 1
+      space_number: '61'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: pawn
+        color: w
+        unicode: "♟ "
+      row: 6
+      col: 2
+      space_number: '62'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: pawn
+        color: w
+        unicode: "♟ "
+      row: 6
+      col: 3
+      space_number: '63'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: pawn
+        color: w
+        unicode: "♟ "
+      row: 6
+      col: 4
+      space_number: '64'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: pawn
+        color: w
+        unicode: "♟ "
+      row: 6
+      col: 5
+      space_number: '65'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: pawn
+        color: w
+        unicode: "♟ "
+      row: 6
+      col: 6
+      space_number: '66'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: pawn
+        color: w
+        unicode: "♟ "
+      row: 6
+      col: 7
+      space_number: '67'
+  - - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: rook
+        color: w
+        unicode: "♜ "
+      row: 7
+      col: 0
+      space_number: '70'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: knight
+        color: w
+        unicode: "♞ "
+      row: 7
+      col: 1
+      space_number: '71'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: bishop
+        color: w
+        unicode: "♝ "
+      row: 7
+      col: 2
+      space_number: '72'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: queen
+        color: w
+        unicode: "♛ "
+      row: 7
+      col: 3
+      space_number: '73'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: king
+        color: w
+        unicode: "♚ "
+      row: 7
+      col: 4
+      space_number: '74'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: bishop
+        color: w
+        unicode: "♝ "
+      row: 7
+      col: 5
+      space_number: '75'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: knight
+        color: w
+        unicode: "♞ "
+      row: 7
+      col: 6
+      space_number: '76'
+    - !ruby/object:Space
+      piece: !ruby/object:Piece
+        name: rook
+        color: w
+        unicode: "♜ "
+      row: 7
+      col: 7
+      space_number: '77'
+  game_over: false
+  escape_check_move: 
+player_white: &2 !ruby/object:Player
+  color: w
+  board: *1
+  captured_pieces: []
+  opponent: &3 !ruby/object:Player
+    color: b
+    board: *1
+    captured_pieces: []
+    opponent: *2
+player_black: *3
+turn: w
+mode: a
