@@ -594,7 +594,7 @@ class Chess
 			save_state = YAML.load_file("saved_game.yml")
 			save_state.get_mode == "f" ? save_state.play_friend : save_state.play_ai
 		else
-			exit
+                        exit
 		end
 	end
 
